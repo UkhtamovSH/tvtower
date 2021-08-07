@@ -1,0 +1,592 @@
+/*Welcome to Tashkent TV- Tower section start*/
+.welcome_section{
+    padding-top: 150px;
+    padding-bottom: 176px;
+}
+.welcome_to_2{
+    margin-top: 77px;
+}
+/*Welcome to Tashkent TV- Tower section end*/
+
+
+/*TV Tower for Visitors section start*/
+#myTab{
+    margin-top: 60px;
+}
+.tv_tower_visitors_section{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("../img/tv_tower_visitors.png");
+    padding-top: 151px;
+    padding-bottom: 131px;
+}
+.tv_tower_visitors_section .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0!important;
+    border-top-right-radius: 0!important;
+}
+.tv_tower_visitors_section .nav-tabs {
+    border-bottom: none!important;
+}
+.tv_tower_visitors_section
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
+    border-color: transparent!important;
+}
+
+.tv_tower_visitors_section
+.nav-tabs .nav-link {
+    font-family: "SF-Pro-Display-Regular",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;
+    padding-left: 0!important;
+    padding-right: 60px;
+    background-color: transparent;
+}
+.tv_tower_visitors_section
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    text-decoration-line: underline;
+}
+/* Slideshow container */
+.mySlides,
+.mySlides2,
+.mySlides3{
+    display: none;
+    padding-left: 56px;
+    padding-right: 150px;
+}
+.slideshow-container {
+    position: relative;
+    max-width: 1128px;
+    background: #111111;
+    margin-top: 98px;
+    padding-bottom: 20px;
+}
+.arrowMainSlider{
+    position: absolute;
+    top: 55.2px;
+    left: 80.8px;
+}
+.sliderImg{
+    width: 499px;
+    height: 700px;
+    transform: translate(0,-90px);
+    object-fit: cover;
+}
+.slide_text1{
+    margin-top: 144px;
+    font-family: "Freight Big Light",sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+.slide_text2,
+.slide_text3{
+    font-family: "SF-Pro-Display-Light",sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.slide_text2{
+    margin-top: 35px;
+    font-size: 16px;
+}
+.slide_text3{
+    margin-top: 19.33px;
+    font-size: 18px;
+}
+.mySlidesSub1{
+    padding-right: 62px;
+}
+.exloreMoreBtn{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    bottom: 60px;
+}
+/*TV Tower for Visitors section end*/
+
+/*Best Moments section start*/
+.best_moments_section{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.best_moments_section img{
+    width: 100%;
+    height: 240px;
+}
+.best_moments_col:nth-child(3n+3) {
+    margin-top: 60px;
+}
+/*Best Moments section end*/
+
+.overlay-content-container{
+    margin-top: 50px;
+}
+
+.latest_news_flex{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.latest_news_flex_sub{
+    width: 1272px;
+}
+.latest_news_back_img{
+    position: absolute;
+    top: 240px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.topOffersSectionSliderCard{
+    position: relative;
+    height: 500px;
+}
+.sliderTextMain{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    padding: 32px 48px;
+    z-index: 2;
+}
+.sliderTextOne{
+    font-family: "SF-Pro-Display-Medium",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+.sliderTextTwo{
+    font-family: "SF-Pro-Display-Light",sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    opacity: 0.8;
+
+
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+
+    -moz-box-orient: vertical;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    margin-top: 15px;
+}
+.sliderImgs{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sliderImgsBac{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: .2;
+}
+
+.modal_Img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.app_title2{
+    font-family: "Freight Big Light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 42px;
+    color: #000000;
+}
+
+@media (min-width: 1500px) {
+
+}
+
+@media (max-width: 1500px) and (min-width: 1200px) {
+
+}
+@media (max-width: 1350px) and (min-width: 1200px) {
+
+    .latest_news_flex_sub{
+        width: 1172px!important;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+
+    .latest_news_flex {
+        display: revert!important;
+        justify-content: revert!important;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .latest_news_flex_sub{
+        width: 100%!important;
+    }
+
+    .topOffersSectionSliderCard{
+        height: 450px;
+    }
+    .sliderTextMain{
+        padding: 25px 25px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 765px) {
+    .modal_one_header {
+        padding: 20px;
+    }
+    .textVirtualAndLanguage {
+        font-size: 32px;
+    }
+    .overlay-content-modal {
+        margin-top: 0;
+    }
+    .overlay-content-container{
+        margin-top: 10px;
+    }
+    .overlay-content-modal .form-group {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .overlayModalOne {
+        overflow-y: scroll!important;
+    }
+    .forMoreMain{
+        margin-bottom: 40px;
+    }
+    .pickLanguageDiv {
+        width: 290px;
+    }
+
+    .welcome_section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .sliderImg {
+        width: 100%;
+        height: 300px;
+        transform: translate(0,0px);
+    }
+    .slide_textFlex{
+        justify-content: flex-start!important;
+    }
+    .slide_textFlex2{
+        justify-content: flex-start!important;
+        margin-bottom: 20px;
+    }
+    .exloreMoreBtn {
+        position: relative!important;
+        bottom: 0!important;
+        justify-content: flex-start!important;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .mySlides, .mySlides2, .mySlides3 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .arrowMainSlider {
+        top: 55.2px;
+        left: 50px;
+    }
+    .mySlidesSub1 {
+        padding-right: 0;
+    }
+    .slideshow-container {
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    #myTab {
+        margin-top: 20px;
+    }
+
+    .best_moments_section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .best_moments_col:nth-child(3n+3) {
+        margin-top: auto;
+    }
+    .best_moments_col {
+        margin-bottom: 30px;
+    }
+
+
+    .latest_news_flex {
+        display: revert!important;
+        justify-content: revert!important;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .latest_news_flex_sub{
+        width: 100%!important;
+    }
+
+    .topOffersSectionSliderCard{
+        height: 450px;
+    }
+    .sliderTextMain{
+        padding: 25px 25px;
+    }
+}
+
+@media (max-width: 765px) and (min-width: 576px) {
+    .modal_one_header {
+        padding: 20px;
+    }
+    .textVirtualAndLanguage {
+        font-size: 32px;
+    }
+    .overlay-content-modal {
+        margin-top: 0;
+    }
+    .overlay-content-container{
+        margin-top: 10px;
+    }
+    .overlay-content-modal .form-group {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .overlayModalOne {
+        overflow-y: scroll!important;
+    }
+    .forMoreMain{
+        margin-bottom: 40px;
+    }
+    .pickLanguageDiv {
+        width: 290px;
+    }
+
+    .welcome_section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .welcome_to_2 {
+        margin-top: 30px!important;
+        width: 100%;
+    }
+    .welcome_to_1{
+        display: none;
+    }
+
+    .sliderImg {
+        width: 100%;
+        height: 300px;
+        transform: translate(0,0px);
+    }
+    .slide_textFlex{
+        justify-content: flex-start!important;
+    }
+    .slide_textFlex2{
+        justify-content: flex-start!important;
+        margin-bottom: 20px;
+    }
+    .arrowMainSlider {
+        top: 55.2px;
+        left: 50px;
+    }
+    .exloreMoreBtn {
+        position: relative!important;
+        bottom: 0!important;
+        justify-content: flex-start!important;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .mySlides, .mySlides2, .mySlides3 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .mySlidesSub1 {
+        padding-right: 0;
+    }
+    .slideshow-container {
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    #myTab {
+        margin-top: 20px;
+    }
+    .tv_tower_visitors_section {
+        padding-top: 50px;
+        padding-bottom: 0!important;
+    }
+
+    .best_moments_section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .best_moments_col:nth-child(3n+3) {
+        margin-top: auto;
+    }
+    .best_moments_col {
+        margin-bottom: 30px;
+    }
+
+
+    .latest_news_flex {
+        display: revert!important;
+        justify-content: revert!important;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .latest_news_flex_sub{
+        width: 100%!important;
+    }
+
+    .topOffersSectionSliderCard{
+        height: 350px;
+    }
+    .sliderTextMain{
+        padding: 25px 25px;
+    }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 320px) {
+    .modal_one_header {
+        padding: 20px;
+    }
+    .textVirtualAndLanguage {
+        font-size: 32px;
+    }
+    .overlay-content-modal {
+        margin-top: 0;
+    }
+    .overlay-content-container{
+        margin-top: 10px;
+    }
+    .overlay-content-modal .form-group {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .overlayModalOne {
+        overflow-y: scroll!important;
+    }
+    .forMoreMain{
+        margin-bottom: 40px;
+    }
+    .pickLanguageDiv {
+        width: 290px;
+    }
+    .welcome_section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .welcome_to_2 {
+        margin-top: 30px!important;
+        width: 100%;
+    }
+    .welcome_to_1{
+        display: none;
+    }
+
+    .sliderImg {
+        width: 100%;
+        height: 220px;
+        transform: translate(0,0px);
+    }
+    .slide_textFlex{
+        justify-content: flex-start!important;
+    }
+    .slide_textFlex2{
+        justify-content: center!important;
+        margin-bottom: 20px;
+    }
+    .arrowMainSlider {
+        top: 55.2px;
+        left: 30px;
+    }
+    .exloreMoreBtn {
+        position: relative!important;
+        bottom: 0!important;
+        justify-content: flex-start!important;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    .mySlides, .mySlides2, .mySlides3 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .slide_text1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .mySlidesSub1 {
+        padding-right: 0;
+    }
+    .slideshow-container {
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    #myTab {
+        margin-top: 20px;
+    }
+    .tv_tower_visitors_section .nav-tabs .nav-link {
+        font-size: 15px;
+        padding-right: 15px;
+    }
+    .tv_tower_visitors_section {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    .best_moments_section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .best_moments_col:nth-child(3n+3) {
+        margin-top: auto;
+    }
+    .best_moments_col {
+        margin-bottom: 30px;
+    }
+
+    .latest_news_flex {
+        display: revert!important;
+        justify-content: revert!important;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .latest_news_flex_sub{
+        width: 100%!important;
+    }
+
+    .topOffersSectionSliderCard{
+        height: 350px;
+    }
+    .sliderTextMain{
+        padding: 25px 25px;
+    }
+}
+

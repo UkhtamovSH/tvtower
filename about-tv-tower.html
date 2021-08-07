@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tashkent Tv Tower</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/about-tv-tower.css">
+</head>
+
+<body>
+    <!--Navigation-->
+    <section id="main" class="navigationFixedSection navBack1 position-relative">
+        <div class="container-fluid">
+            <nav class="">
+                <div class="container">
+                    <div class="">
+                        <div class="d-flex justify-content-between align-items-center h-100">
+                            <div class="">
+                                <a href="index.html" class="text-decoration-none">
+                                    <img src="img/svg/brand.svg" alt="brand">
+                                </a>
+                            </div>
+                            <div class="">
+                                <ul class="navigationFixedUl" id="navbar-sections">
+                                    <li><a href="restaurant.html">Restaurant</a></li>
+                                    <li><a href="tour-agency.html">Tour agency</a></li>
+                                    <li><a href="about-tv-tower.html">About TV Tower</a></li>
+                                    <li><span class="text-white cursor" onclick="openNavModalOne()">Virtual
+                                            reception</span>
+                                    </li>
+                                    <li><span class="text-white cursor" onclick="openNavModalTwo()">EN</span></li>
+                                </ul>
+                            </div>
+                            <div class="navigationFixedUlIcon">
+                                <div class="">
+                                    <span class="text-white" style="font-size:30px;cursor:pointer"
+                                        onclick="openNav()">&#9776;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container-fluid app_header_info_home h-100 position-relative p-0">
+            <div class="owl-carousel owl-theme position-relative">
+                <div class="item">
+                    <img src="img/1appHeaderBacground.png" class="navBack" alt="">
+                    <div class="container">
+                        <div class="app_header_info_1 d-flex align-items-center h-100">
+                            <div class="">
+                                <p class="text111">The Tallest Building in Tashkent</p>
+                                <p class="text2">
+                                    Visit and see the city from a height of 250 meters!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/2appHeaderBacground.png" class="navBack" alt="">
+                    <div class="container">
+                        <div class="app_header_info_1 d-flex align-items-center h-100">
+                            <div class="">
+                                <p class="text111">Restaurant & Bars</p>
+                                <p class="text2">Enjoy a world culinary experience
+                                    in the vibrant atmosphere of Koinot Restaurant</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container position-relative">
+                <div class="app_header_info_2">
+                    <a href="#scrollspy" class="text2 text-decoration-none">Scroll to explore</a>
+                </div>
+                <div class="app_header_info_222">
+                    <a href="#scrollspy" class="text-decoration-none">
+                        <div class="swipeMain">
+                            <div class="d-flex justify-content-center align-items-center h-100 w-100">
+                                <div class="">
+                                    <img src="img/svg/swipe.svg" class="swipe" alt="swipe">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="bg-video-wrap-back"></div>
+        </div>
+        <div id="myNav" class="overlay">
+            <img class="closebtn mt-3" onclick="closeNav()" src="img/svg/x.svg" alt="">
+            <div class="overlay-content">
+                <a href="restaurant.html" class="navigationSecondSubLink" onclick="closeNav()">Restaurant</a>
+                <a href="tour-agency.html" class="navigationSecondSubLink" onclick="closeNav()">Tour agency</a>
+                <a href="about-tv-tower.html" class="navigationSecondSubLink" onclick="closeNav()">About TV Tower</a>
+                <span class="navigationSecondSubLink cursor" onclick="openNavModalOne()">Virtual reception</span>
+                <span class="navigationSecondSubLink cursor" onclick="openNavModalTwo()">EN</span>
+            </div>
+        </div>
+
+        <!--Virtual reception modal-->
+        <div id="navigation_modal_one" class="overlayModalOne">
+            <div class="">
+                <div class="modal_one_header d-flex justify-content-between w-100 h-100 align-items-center">
+                    <div class="">
+                        <a href="index.html" class="text-decoration-none">
+                            <img src="img/svg/brand2.svg" alt="brand">
+                        </a>
+                    </div>
+                    <div class="">
+                        <div class="closebtn" onclick="closeNavModalOne()">
+                            <img src="img/svg/x.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay-content-modal">
+                <p class="textVirtualAndLanguage"><span>Virtual</span> Reception</p>
+                <div class="container overlay-content-container">
+                    <form class="">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="fullName" placeholder="Full Name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="phoneNumber" placeholder="Phone number">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <select class="form-control" id="selectYourCity">
+                                        <option>Select your City</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="address" placeholder="Address">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" placeholder="Message"></textarea>
+                        </div>
+                        <div class="d-flex justify-content-center w-100" style="margin-top: 32px">
+                            <div class="forMoreMain">
+                                <button type="submit" class="text-decoration-none forMoreBtn">
+                                    <img src="img/svg/forMore.svg" alt="">
+                                    <span class="pl-3">Send an appeal</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--Language modal-->
+        <div id="navigation_modal_two" class="overlayModalOne">
+            <div class="">
+                <div class="modal_one_header d-flex justify-content-between w-100 h-100 align-items-center">
+                    <div class="">
+                        <a href="index.html" class="text-decoration-none">
+                            <img src="img/svg/brand2.svg" alt="brand">
+                        </a>
+                    </div>
+                    <div class="">
+                        <div class="closebtn" onclick="closeNavModalTwo()">
+                            <img src="img/svg/x.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay-content-modal">
+                <p class="textVirtualAndLanguage"><span>Select</span> Your Language</p>
+                <div class="container overlay-content-container">
+                    <form>
+                        <div class="pickLanguageFlex">
+                            <div class="">
+                                <div class="pickLanguageDiv">
+                                    <label class="radioLabel" for="radio1">
+                                        <input type="radio" id="radio1" name="exampleRadios"
+                                            class="form-control chooseDirectionCard required" />
+                                        <div class="chooseDirectionCardInput">
+                                            <div class="d-flex justify-content-between align-items-center w-100 h-100">
+                                                <div class="">
+                                                    <p class="headingTitle">English</p>
+                                                </div>
+                                                <div class="">
+                                                    <img src="img/svg/checkk.svg" class="checkk" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pickLanguageFlex">
+                            <div class="">
+                                <div class="pickLanguageDiv">
+                                    <label class="radioLabel" for="radio2">
+                                        <input type="radio" id="radio2" name="exampleRadios"
+                                            class="form-control chooseDirectionCard required" />
+                                        <div class="chooseDirectionCardInput">
+                                            <div class="d-flex justify-content-between align-items-center w-100 h-100">
+                                                <div class="">
+                                                    <p class="headingTitle">O’zbekcha</p>
+                                                </div>
+                                                <div class="">
+                                                    <img src="img/svg/checkk.svg" class="checkk" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pickLanguageFlex">
+                            <div class="">
+                                <div class="pickLanguageDiv">
+                                    <label class="radioLabel" for="radio3">
+                                        <input type="radio" id="radio3" name="exampleRadios"
+                                            class="form-control chooseDirectionCard required" />
+                                        <div class="chooseDirectionCardInput">
+                                            <div class="d-flex justify-content-between align-items-center w-100 h-100">
+                                                <div class="">
+                                                    <p class="headingTitle">Узбекча</p>
+                                                </div>
+                                                <div class="">
+                                                    <img src="img/svg/checkk.svg" class="checkk" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pickLanguageFlex">
+                            <div class="">
+                                <div class="pickLanguageDiv">
+                                    <label class="radioLabel" for="radio4">
+                                        <input type="radio" id="radio4" name="exampleRadios"
+                                            class="form-control chooseDirectionCard required" />
+                                        <div class="chooseDirectionCardInput">
+                                            <div class="d-flex justify-content-between align-items-center w-100 h-100">
+                                                <div class="">
+                                                    <p class="headingTitle">Pусский</p>
+                                                </div>
+                                                <div class="">
+                                                    <img src="img/svg/checkk.svg" class="checkk" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--About Us-->
+    <section class="about_us_section position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="app_title"><span>About</span> Us</p>
+                    <p class="app_sub_title app_sub_title_4" style="padding-top: 32px">
+                        The Koinot restaurant offers its visitors fresh dishes of international and Uzbek cuisine.
+                        Getting
+                        into this restaurant, you practically make a sightseeing tour of Tashkent, as the restaurant is
+                        located at an altitude of 105 meters. You can enjoy breakfast while looking out over the city in
+                        the
+                        morning or dine at sunset with a special charm. The restaurant has piano music and an atmosphere
+                        of
+                        elegance.
+                    </p>
+
+                    <div class="" style="padding-top: 12px">
+                        <div class="">
+                            <div class="app_sub_title footerText2 text-decoration-none">
+                                <div class="d-flex align-items-center w-100 my-4">
+                                    <div class="mr-3 footerText2Div">
+                                        <img src="img/svg/aboutUs4.svg" alt="">
+                                    </div>
+                                    <div class="">
+                                        <p>
+                                            Every day: 10:00 - 20:00
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app_sub_title footerText2 text-decoration-none">
+                                <div class="d-flex align-items-center w-100 my-4">
+                                    <div class="mr-3 footerText2Div">
+                                        <img src="img/svg/aboutUs1.svg" alt="">
+                                    </div>
+                                    <div class="">
+                                        <p>
+                                            +998 97 777 77 77
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app_sub_title footerText2 text-decoration-none">
+                                <div class="d-flex align-items-center w-100 my-4">
+                                    <div class="mr-3 footerText2Div">
+                                        <img src="img/svg/aboutUs2.svg" alt="">
+                                    </div>
+                                    <div class="">
+                                        <p>
+                                            toshrtum@tv-tower.uz
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex w-100 h-100">
+                        <img src="img/welcome_to_1.png" class="img-fluid welcome_to_1" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Our Services-->
+    <section class="our_pride_section position-relative">
+        <div class="container">
+            <p class="app_title"><span>Our</span> Services</p>
+            <p class="app_sub_title mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis </p>
+            <div class="row" style="margin-top: 60px">
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 our_service_col">
+                    <a href="#" class="text-decoration-none">
+                        <div class="our_service_div position-relative">
+                            <div class="d-flex w-100 h-100">
+                                <img src="img/our_service1.png" class="img-fluid our_service_imgg" alt="">
+                            </div>
+                            <div class="our_service_info">
+                                <p class="our_service_text">
+                                    TV-Tower
+                                </p>
+                                <img src="img/svg/our_service.svg" alt="">
+                            </div>
+                            <div class="our_service_back"></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 our_service_col">
+                    <a href="#" class="text-decoration-none">
+                        <div class="our_service_div position-relative">
+                            <div class="d-flex w-100 h-100">
+                                <img src="img/our_service2.png" class="img-fluid our_service_imgg" alt="">
+                            </div>
+                            <div class="our_service_info">
+                                <p class="our_service_text">
+                                    Tourism
+                                </p>
+                                <img src="img/svg/our_service.svg" alt="">
+                            </div>
+                            <div class="our_service_back"></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 our_service_col">
+                    <a href="#" class="text-decoration-none">
+                        <div class="our_service_div position-relative">
+                            <div class="d-flex w-100 h-100">
+                                <img src="img/our_service3.png" class="img-fluid our_service_imgg" alt="">
+                            </div>
+                            <div class="our_service_info">
+                                <p class="our_service_text">
+                                    Dinner at the highest restaurant
+                                </p>
+                                <img src="img/svg/our_service.svg" alt="">
+                            </div>
+                            <div class="our_service_back"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Our Pride-->
+    <section id="scrollspy" class="our_pride_section position-relative">
+        <div class="container">
+            <p class="app_title"><span>Our</span> Pride</p>
+            <div class="row our_pride_row">
+                <div class="col-md-6 our_pride_col">
+                    <div class="d-flex">
+                        <div class="our_pride_col_div">
+                            <div class="our_pride_div">
+                                <img src="img/svg/our_pride1.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="">
+                            <p class="mb-0 our_pride_text">The Highest</p>
+                            <p class="mb-0 our_pride_text2">
+                                The Tashkent TV Tower is the tallest structure with an open observation deck in Central
+                                Asia. Our TV tower is the 13th tallest TV tower in the world with a height of 375 meters
+                                (at
+                                the time of commissioning - 9th in the world)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 our_pride_col">
+                    <div class="d-flex">
+                        <div class="our_pride_col_div">
+                            <div class="our_pride_div">
+                                <img src="img/svg/our_pride2.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="">
+                            <p class="mb-0 our_pride_text">Wall of History</p>
+                            <p class="mb-0 our_pride_text2">
+                                A huge panel with an area of ​​more than 255 m2. Its scale is impressive and corresponds
+                                to
+                                the grandiose idea of ​​A. BUKHARBAEV, a member of the Union of Artists. This work of
+                                monumental art is composed of compositions. Homeland, space, communications, radio
+                                television Bayram
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 our_pride_col">
+                    <div class="d-flex">
+                        <div class="our_pride_col_div">
+                            <div class="our_pride_div">
+                                <img src="img/svg/our_pride3.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="">
+                            <p class="mb-0 our_pride_text">Highest Restaurant</p>
+                            <p class="mb-0 our_pride_text2">
+                                The tallest restaurant in Uzbekistan, located at a height of 105 meters with a revolving
+                                floor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 our_pride_col">
+                    <div class="d-flex">
+                        <div class="our_pride_col_div">
+                            <div class="our_pride_div">
+                                <img src="img/svg/our_pride4.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="">
+                            <p class="mb-0 our_pride_text">Federation of the Great Towers of the World</p>
+                            <p class="mb-0 our_pride_text2">
+                                Since October 11, 1991, our TV Tower will become part of the Federation of the Great
+                                Towers
+                                of the World
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Our Partners-->
+    <section class="our_partners_section position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6 col-xl-6">
+                    <p class="app_title"><span>Our</span> Partners</p>
+                    <p class="app_sub_title app_sub_title_1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat purus feugiat amet, hac
+                        tristique
+                        augue tortor elit tellus. Consequat suspendisse nunc nunc, rhoncus, quam vitae mollis
+                        pellentesque.
+                        Condimentum placerat neque nisl montes, ultricies nunc quis aliquam. Ullamcorper metus feugiat
+                        volutpat arcu elit at phasellus vitae. Eget morbi consequat sed netus. Congue sodales.
+                    </p>
+
+                    <div class="d-flex justify-content-start w-100" style="margin-top: 32px">
+                        <div class="forMoreMain">
+                            <a href="#" class="text-decoration-none">
+                                <img src="img/svg/forMore.svg" alt="">
+                                <span class="pl-3">Request Partnership</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 col-xl-6">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3 col-lg-6 col-xl-6">
+                            <div class="d-flex w-100 h-100 align-items-center justify-content-center">
+                                <div class="">
+                                    <img src="img/partner1.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-6 col-xl-6">
+                            <div class="d-flex w-100 h-100 align-items-center justify-content-center">
+                                <div class="">
+                                    <img src="img/partner2.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-6 col-xl-6">
+                            <div class="d-flex w-100 h-100 align-items-center justify-content-center">
+                                <div class="">
+                                    <img src="img/partner3.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-6 col-xl-6">
+                            <div class="d-flex w-100 h-100 align-items-center justify-content-center">
+                                <div class="">
+                                    <img src="img/partner4.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer_section position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6  col-lg-3">
+                    <a href="index.html" class="text-decoration-none">
+                        <img src="img/svg/brand.svg" alt="brand">
+                    </a>
+                    <p class="app_sub_title text-white mt-3">The Tallest Building in Tashkent</p>
+                    <div class="d-flex w-100 mt-5">
+                        <div class="mr-3">
+                            <img src="img/svg/social4.svg" class="cursor" alt="">
+                        </div>
+                        <div class="mr-3">
+                            <img src="img/svg/social2.svg" class="cursor" alt="">
+                        </div>
+                        <div class="mr-3">
+                            <img src="img/svg/social3.svg" class="cursor" alt="">
+                        </div>
+                        <div class="mr-3">
+                            <img src="img/svg/social1.svg" class="cursor" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-2 col-xl-2">
+                    <div class="footerLinkFlex">
+                        <div class="">
+                            <p class="mb-0 footerTitle">Our Services</p>
+                            <a href="restaurant.html" class="app_sub_title footerText d-block my-2">Restaurant</a>
+                            <a href="tour-agency.html" class="app_sub_title footerText d-block my-2">Tour Agengy</a>
+                            <a href="" class="app_sub_title footerText d-block my-2">Souvenir shop</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <div class="footerLinkFlex">
+                        <div class="">
+                            <p class="mb-0 footerTitle">About Us</p>
+                            <a href="about-tv-tower.html" class="app_sub_title footerText d-block my-2">About
+                                TV-Tower</a>
+                            <a href="" class="app_sub_title footerText d-block my-2">Best Moments</a>
+                            <a href="" class="app_sub_title footerText d-block my-2">News</a>
+                            <span onclick="openNavModalOne()" class="app_sub_title footerText d-block">Virtual
+                                reception</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                    <div class="footerLinkFlex">
+                        <div class="">
+                            <p class="mb-0 footerTitle">Contact Us</p>
+                            <a href="" class="app_sub_title footerText">
+                                <div class="d-flex align-items-center w-100 my-2">
+                                    <div class="mr-3">
+                                        <img src="img/svg/contactUs1.svg" alt="">
+                                    </div>
+                                    <div class="">
+                                        <p>
+                                            +998 97 777 77 77
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="" class="app_sub_title footerText">
+                                <div class="d-flex align-items-center w-100 my-2">
+                                    <div class="mr-3">
+                                        <img src="img/svg/contactUs2.svg" alt="">
+                                    </div>
+                                    <div class="">
+                                        <p>
+                                            info@tv-tower.uz
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="" class="app_sub_title footerText">
+                                <div class="d-flex align-items-center w-100 my-2">
+                                    <div class="mr-3">
+                                        <img src="img/svg/contactUs3.svg" alt="">
+                                    </div>
+                                    <div class="">
+                                        <p>
+                                            Amir Temur Avenue, Tashkent
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="footerSub d-flex justify-content-between w-100 h-100 align-items-center">
+                        <div class="">
+                            <p class="app_sub_title mb-0 text-white">
+                                © Copyright 2021. Tashkent TV-Tower
+                            </p>
+                        </div>
+                        <div class="">
+                            <p class="app_sub_title mb-0 text-white">
+                                Made by tuitsoft.uz
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/navigation.js"></script>
+<script type="text/javascript">
+    $('.app_header_info_home .owl-carousel').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: false,
+        //        autoplay: true,
+        //        autoplayTimeout: 3000,
+        //        autoplayHoverPause: true,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    });
+</script>
+
+</html>

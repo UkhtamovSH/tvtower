@@ -1,0 +1,409 @@
+.tower_numbers_card {
+    padding: 60px 70px 70px 70px;
+    border: none;
+    border-radius: 0 !important;
+    margin-top: 110px;
+}
+.tower_numbers_card2_main{
+    padding: 100px 82px 130px 82px;
+    margin-top: 110px;
+    background-color: #fff;
+}
+
+
+
+.tower_numbers_card2_main .owl-carousel .owl-nav button.owl-prev:focus,
+.owl-nav button.owl-next:focus {
+    outline: none !important;
+}
+
+.tower_numbers_card2_main .owl-carousel .owl-nav button.owl-prev {
+    z-index: 2;
+}
+.owl-prev span,
+.owl-next span{
+    display: none;
+}
+
+.tower_numbers_card2_main .owl-carousel .owl-nav .owl-prev,
+.owl-next {
+    position: relative;
+}
+
+.tower_numbers_card2_main .owl-carousel .owl-nav .owl-prev:after {
+    content: url("../img/svg/arrowLeftSlider2.svg");
+    position: absolute;
+    left: -40px;
+    top: -3px;
+}
+
+.tower_numbers_card2_main .owl-carousel .owl-nav button.owl-next {
+    z-index: 2;
+}
+
+.tower_numbers_card2_main .owl-carousel .owl-nav .owl-next:after {
+    content: url("../img/svg/arrowRightSlider2.svg");
+    position: absolute;
+    right: -40px;
+    top: -3px;
+}
+.tower_numbers_card2_main .owl-carousel .owl-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+    top: 0;
+}
+
+.tower_numbers_card2{
+    border: none!important;
+    border-radius: 0;
+    text-align: center;
+    padding: 10px 10px 30px 10px;
+}
+.tower_numbers_flex_numbers {
+    margin-top: 48px;
+    width: 100%;
+}
+.app_sub_title_name{
+    font-family: "SF-Pro-Display-Regular",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B78E35;
+    margin-top: 60px;
+}
+.tower_numbers_div {
+    padding: 32px 32px 32px 12px;
+}
+
+.tower_numbers_div:nth-child(1) {
+    width: 70%;
+    border-bottom: 1px solid #B78E35;
+    border-right: 1px solid #B78E35;
+}
+
+.tower_numbers_div:nth-child(2) {
+    width: 30%;
+    border-bottom: 1px solid #B78E35;
+}
+
+.tower_numbers_div2 {
+    padding: 32px 32px 32px 12px;
+}
+
+.tower_numbers_div2:nth-child(1) {
+    width: 70%;
+    border-right: 1px solid #B78E35;
+}
+
+.tower_numbers_div2:nth-child(2) {
+    width: 30%;
+}
+
+.tour_agency {
+    background: linear-gradient(180deg, rgba(232, 231, 231, 0) 0%, #E8E7E7 100%);
+}
+
+.tower_numbers_section {
+    padding-top: 100px;
+}
+
+.tower_numbers_section_sub {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 80%;
+    height: 100%;
+}
+
+.tower_numbers_card_main {
+    width: 570px;
+}
+
+/*Ticket Prices section start*/
+.ticket {
+    filter: drop-shadow(1px 1px 3px rgba(24, 39, 75, 0.1));
+}
+.ticket .top,
+.ticket .bottom,
+.ticket .rip {
+    background-color: #fff;
+}
+.ticket .bottom {
+    padding: 19px;
+}
+.ticket .rip {
+    height: 20px;
+    margin: 0 10px;
+    background-image: url("../img/svg/line.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    box-shadow: 0 1px 0 0 #fff, 0 -1px 0 0 #fff;
+}
+.ticket .rip:before,
+.ticket .rip:after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border: 5px solid transparent;
+    border-top-color: #fff;
+    border-right-color: #fff;
+    border-radius: 100%;
+    pointer-events:none;
+}
+.ticket .rip:before {
+    left: -10px;
+}
+.ticket .rip:after {
+    transform: translate(-50%, -50%) rotate(225deg);
+    right: -40px;
+}
+.ticket_price_grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px 10px;
+}
+.ticket_price_item{
+    width: 200px;
+}
+.ticket_price_section{
+    padding-top: 100px;
+}
+
+.our_pride_section22{
+    padding-top: 50px;
+}
+.ticket_header{
+    padding: 21px 15px;
+    border-radius: 0px 0px 20px 20px;
+    background: #FFCE64;
+}
+.ticket_header_text1{
+    font-family: "SF-Pro-Display-Semibold",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #222222;
+    text-transform: uppercase;
+    text-align: center;
+}
+.ticket_header_text2{
+    font-family: "SF-Pro-Display-Light",sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+
+}
+.ticket_header_text2 span{
+    font-family: "SF-Pro-Display-Medium",sans-serif;
+    font-weight: 500;
+
+}
+.ticket_header_text3{
+    font-family: "SF-Pro-Display-Light",sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 102.2%;
+    color: #FF6666;
+    text-align: center;
+}
+.ticket_info{
+    display: flex;
+    flex-direction: column;
+    min-height: 180px;
+    padding: 36px 24px 10px 24px;
+}
+/*Ticket Prices section end*/
+
+
+@media (min-width: 1500px) {
+    .tower_numbers_sub_img{
+        margin-top: 100px;
+    }
+    .ticket_price_item{
+        width: 230px!important;
+    }
+}
+
+@media (max-width: 1500px) and (min-width: 1200px) {
+    .tower_numbers_sub_img{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 1500px) and (min-width: 1300px) {
+    .ticket_price_item{
+        width: 230px!important;
+    }
+}
+
+@media (max-width: 1300px) and (min-width: 1200px) {
+    .ticket_price_item{
+        width: 215px!important;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 1100px) {
+    .tower_numbers_sub_img{
+        margin-top: 100px;
+    }
+
+    .ticket_price_grid {
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .ticket_price_item{
+        width: 250px;
+    }
+}
+@media (max-width: 1100px) and (min-width: 992px) {
+    .tower_numbers_sub_img{
+        margin-top: 100px;
+    }
+
+    .ticket_price_grid {
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .ticket_price_item{
+        width: 220px;
+    }
+}
+@media (max-width: 992px) and (min-width: 900px) {
+    .tower_numbers_sub_img{
+        margin-top: 100px;
+    }
+
+    .ticket_price_grid {
+        grid-template-columns: auto auto auto;
+    }
+
+    .ticket_price_item{
+        width: 270px;
+    }
+}
+@media (max-width: 900px) and (min-width: 765px) {
+    .tower_numbers_sub_img{
+        margin-top: 100px;
+    }
+
+    .ticket_price_grid {
+        grid-template-columns: auto auto auto;
+    }
+
+    .ticket_price_item{
+        width: 225px;
+    }
+}
+
+@media (max-width: 765px) and (min-width: 576px) {
+    .tower_numbers_sub_img{
+        display: none;
+    }
+
+    .tower_numbers_section {
+        padding-top: 50px;
+    }
+
+    .tower_numbers_card {
+        padding: 15px;
+        margin-top: 0px;
+    }
+    .tower_numbers_card_main {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 765px) and (min-width: 700px) {
+    .ticket_price_grid {
+        grid-template-columns: auto auto auto;
+    }
+    .ticket_price_item{
+        width: 205px;
+    }
+    .tower_numbers_card2_main {
+        padding: 70px 82px 70px 82px;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 700px) and (min-width: 650px) {
+    .ticket_price_grid {
+        grid-template-columns: auto auto auto;
+    }
+    .ticket_price_item{
+        width: 188px;
+    }
+    .tower_numbers_card2_main {
+        padding: 70px 82px 70px 82px;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 650px) and (min-width: 576px) {
+    .ticket_price_grid {
+        grid-template-columns: auto auto;
+    }
+    .ticket_price_item{
+        width: 96%;
+    }
+    .tower_numbers_card2_main {
+        padding: 70px 82px 70px 82px;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 320px) {
+    .tower_numbers_sub_img{
+        display: none;
+    }
+
+    .tower_numbers_section {
+        padding-top: 50px;
+    }
+
+    .tower_numbers_card {
+        padding: 15px;
+        margin-top: 0px;
+    }
+    .ticket_price_grid {
+        grid-template-columns: auto;
+    }
+    .ticket_price_item{
+        width: 98%;
+    }
+
+    .tower_numbers_card2_main .owl-carousel .owl-nav button.owl-next {
+        display: none;
+    }
+
+    .tower_numbers_card2_main .owl-carousel .owl-nav button.owl-prev {
+        display: none;
+    }
+    .tower_numbers_card_main {
+        width: 100%;
+    }
+    .tower_numbers_card2_main {
+        padding: 30px 15px;
+        margin-top: 30px;
+        background-color: #fff;
+    }
+    .tower_numbers_card2_main .owl-carousel .owl-nav {
+        height: 0;
+        z-index: -1;
+    }
+}

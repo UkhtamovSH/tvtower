@@ -1,0 +1,351 @@
+.about_us_container{
+    width: 100%;
+    min-height: 550px;
+}
+.about_us_section_col{
+    min-height: 470px;
+}
+.about_us_section_div{
+    background-color: #fff;
+    padding-bottom: 47.5px;
+}
+.about_us_section_back{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    width: 90%;
+    height: 100%;
+}
+.about_us_section_imgg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about_us_section22{
+    padding-bottom: 150px;
+}
+.our_pride_section22{
+    padding-bottom: 90px;
+}
+.another_carousel_card{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.another_carousel_text{
+    font-family: "SF-Pro-Display-Thin",sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 48px;
+    line-height: 57px;
+    color: #FFFFFF;
+}
+
+.another_carousel_imgg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.another_carousel_div{
+    height: 616px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.progress {
+    margin-top: 64px;
+    height: 3px!important;
+    border-radius: 0!important;
+    background-color: #caccce;
+}
+
+
+.another_carousel_section .owl-carousel .owl-nav button.owl-prev:focus,
+.owl-nav button.owl-next:focus {
+    outline: none !important;
+}
+
+.another_carousel_section .owl-carousel .owl-nav button.owl-prev {
+    z-index: 2;
+    margin-left: 35px;
+}
+
+.another_carousel_section .owl-carousel .owl-nav .owl-prev,
+.owl-next {
+    position: relative;
+}
+
+.another_carousel_section .owl-carousel .owl-nav .owl-prev:after {
+    content: url("../img/svg/arrowLeftSlider.svg");
+    position: absolute;
+    left: -70px;
+    top: -5px;
+}
+
+.another_carousel_section .owl-carousel .owl-nav button.owl-next {
+    z-index: 2;
+    margin-right: 35px;
+}
+
+.another_carousel_section .owl-carousel .owl-nav .owl-next:after {
+    content: url("../img/svg/arrowRightSlider.svg");
+    position: absolute;
+    right: -20px;
+    top: -5px;
+}
+.another_carousel_section .owl-carousel .owl-nav {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    z-index: 11;
+    bottom: 78px;
+    right: 180px;
+}
+.another_carousel_card{
+    border: none!important;
+    border-radius: 0!important;
+}
+.our_benefits_and_numbers_section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(180deg, rgba(232, 231, 231, 0) 0%, #E8E7E7 100%);
+}
+.our_benefits_flex{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.our_benefits_col{
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+.our_benefits_img_main{
+    margin-right: 44px;
+}
+.app_sub_title_benefits{
+    width: 73%;
+}
+
+@media (min-width: 1700px) {
+    .another_carousel_section .owl-carousel .owl-nav {
+        right: 280px!important;
+    }
+    .another_carousel_text{
+        width: 45%;
+    }
+}
+@media (max-width: 1500px) and (min-width: 1200px) {
+    .another_carousel_section .owl-carousel .owl-nav {
+        right: 180px!important;
+    }
+    .another_carousel_text{
+        width: 45%;
+    }
+}
+@media (max-width: 1500px) and (min-width: 1450px) {
+    .another_carousel_section .owl-carousel .owl-nav {
+        right: 180px!important;
+    }
+}
+@media (max-width: 1450px) and (min-width: 1400px) {
+    .another_carousel_section .owl-carousel .owl-nav {
+        right: 120px!important;
+    }
+}
+@media (max-width: 1400px) and (min-width: 1300px) {
+    .another_carousel_section .owl-carousel .owl-nav {
+        right: 90px!important;
+    }
+}
+@media (max-width: 1300px) and (min-width: 1200px) {
+    .another_carousel_section .owl-carousel .owl-nav {
+        right: 30px!important;
+    }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+    .about_us_section22{
+        padding-bottom: 50px;
+    }
+
+    .our_pride_section22{
+        padding-bottom: 60px;
+    }
+
+    .another_carousel_card{
+        height: 600px;
+    }
+
+    .another_carousel_div{
+        height: 516px;
+    }
+    .another_carousel_section .owl-carousel .owl-nav {
+        right: 30px!important;
+    }
+
+    .another_carousel_text{
+        width: 70%;
+    }
+
+    .app_sub_title_benefits {
+        width: 80%;
+    }
+    .our_benefits_img_main {
+        margin-right: 15px;
+    }
+    .our_benefits_row{
+        margin-top: 20px;
+    }
+    .our_benefits_col{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 992px) and (min-width: 765px) {
+    .about_us_section22{
+        padding-bottom: 50px;
+    }
+
+    .our_pride_section22{
+        padding-bottom: 60px;
+    }
+
+    .another_carousel_div{
+        height: 516px;
+    }
+    .another_carousel_card{
+        height: 600px;
+    }
+    .another_carousel_section .owl-carousel .owl-nav {
+        right: 15px!important;
+    }
+    .another_carousel_text{
+        width: 70%;
+    }
+    .another_carousel_text{
+        font-size: 38px;
+        line-height: 47px;
+    }
+    .app_sub_title_benefits {
+        width: 100%;
+    }
+    .our_benefits_img_main {
+        margin-right: 15px;
+    }
+    .our_benefits_row{
+        margin-top: 20px;
+    }
+    .our_benefits_col{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 765px) and (min-width: 576px) {
+    .about_us_section_back{
+        position: relative;
+        width: 100%;
+        height: 250px;
+    }
+    .about_us_section_div{
+        background-color: transparent;
+        padding-bottom: 27.5px;
+    }
+    .about_us_section_col{
+        min-height: 400px;
+    }
+
+    .about_us_section22{
+        padding-bottom: 50px;
+    }
+
+    .our_pride_section22{
+        padding-bottom: 60px;
+    }
+    .another_carousel_div{
+        height: 416px;
+    }
+    .another_carousel_card{
+        height: 500px;
+    }
+    .another_carousel_section .owl-carousel .owl-nav {
+        right: 15px!important;
+    }
+    .another_carousel_text{
+        width: 80%;
+    }
+    .another_carousel_text{
+        font-size: 38px;
+        line-height: 47px;
+    }
+    .app_sub_title_benefits {
+        width: 100%;
+    }
+    .our_benefits_img_main {
+        margin-right: 15px;
+    }
+    .our_benefits_row{
+        margin-top: 20px;
+    }
+    .our_benefits_col{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+@media only screen and (max-width: 576px) and (min-width: 320px) {
+    .about_us_section_back{
+        position: relative;
+        width: 100%;
+        height: 250px;
+    }
+    .about_us_section_div{
+        background-color: transparent;
+        padding-bottom: 27.5px;
+    }
+    .about_us_section_col{
+        min-height: 400px;
+    }
+
+    .about_us_section22{
+        padding-bottom: 50px;
+    }
+
+    .our_pride_section22{
+        padding-bottom: 60px;
+    }
+    .another_carousel_div{
+        height: 316px;
+    }
+    .another_carousel_card{
+        height: 400px;
+    }
+    .another_carousel_section .owl-carousel .owl-nav {
+        right: 15px!important;
+    }
+    .another_carousel_text{
+        width: 100%;
+    }
+    .another_carousel_text{
+        font-size: 28px;
+        line-height: 37px;
+        padding-bottom: 60px;
+    }
+    .progress{
+        display: none;
+    }
+    .app_sub_title_benefits {
+        width: 100%;
+    }
+    .our_benefits_img_main {
+        margin-right: 15px;
+    }
+    .our_benefits_col{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .our_benefits_row{
+        margin-top: 20px;
+    }
+}
